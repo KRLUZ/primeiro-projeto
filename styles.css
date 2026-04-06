@@ -1,0 +1,142 @@
+*{
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    margin: 47px 0px 246px 42px;
+}
+
+.header-link{
+    width: 87px;
+    height: 20px;
+    font-size: 14px;
+    margin-right: 32px;
+    cursor: pointer;
+    color: #17233D;
+    font-weight: 400;
+    line-height: 100%;
+}
+
+.header-button{
+    color: #FFFFFF;
+    width: 124px;
+    height: 51px;
+    border: 1px solid #6FBF44;
+    border-radius: 6px;
+    background: #6FBF44;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.logo-principal{
+    width: 595px;
+    height: 500px;
+    margin-left: 121px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+section{
+    display: inline-block;
+    margin-left: 84px;
+}
+
+h1{
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 82px;
+    color: #161A49;
+    width: 582px;
+    height: 164px;
+    margin-bottom: 47px;
+}
+
+h2{
+    color: #4B505A;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;
+    width: 493px;
+    height:99px;
+    margin-bottom: 55px;
+
+}
+
+.link-principal{
+    color: #6FBF44;
+    font-size: 18px;
+    width: 112px;
+    height: 27px;
+    font-weight: 500;
+    cursor: pointer;
+
+}
+
+
+@media screen and (max-width: 900px){
+    .header-link{
+        display: none;
+    }
+
+    header{
+        display: flex;
+        align-items: center;
+        margin: 24px 16px;
+        order: 1;
+        padding-left: 220px;
+        margin-bottom: 76px;
+    }
+    
+    .header-button{
+        width: 91px;
+        height: 33px;
+        font-size: 12px;
+
+    }
+
+    main{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 16px;
+    }
+
+    .logo-principal{
+        width: 312px;
+        height: 288px;
+        display: block;
+        margin: 0 auto 24px;
+        order: 3 ;
+    }
+
+    section{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0;
+        text-align: center;
+        order: 2;
+    }
+
+    h1{
+        font-size: 40px;
+        width: auto;
+        font-size: 30px;
+        line-height: 30px;
+        height: 60px;
+    }
+
+    h2{
+        width: auto;
+        height: 165px;
+        margin-bottom: 0px;
+    }
+
+    .header-button{
+        margin-left: 16px;
+    }
+}
